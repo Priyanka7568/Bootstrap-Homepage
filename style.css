@@ -1,0 +1,116 @@
+main{
+    margin-top: 90px;
+}.custom_P .logo{
+    max-width: 70px;
+}
+.custom_P .navbar-dark .navbar-nav .nav-link{
+    color: #fff !important;
+    text-transform: uppercase;
+}
+.custom_P .navbar-dark .navbar-nav .nav-link.active, 
+.custom_P .navbar-dark .navbar-nav .show>.nav-link, 
+.custom_P .navbar-dark .navbar-nav .nav-link:focus, 
+.custom_P .navbar-dark .navbar-nav .nav-link:hover{
+    color: #e8895b !important;
+}
+.custom_P .social_icons a {
+    color: #898989;
+    font-size: 24px;
+}
+.custom_P .social_icons a:hover{
+    color: #fff;
+}
+.custom_P .carousel-inner {
+    background-color: #000;
+}
+.custom_P .carousel-inner .carousel-item img{
+    opacity: 0.3;
+    min-height: 410px;
+}
+.custom_P .btn-primary{
+    background-color: #e8895b;
+    border-color: #e8895b;
+}
+.custom_P .btn-primary:hover, 
+.custom_P .btn-primary:focus, 
+.custom_P .btn-primary:active,
+.custom_P .btn-outline-primary:hover, 
+.custom_P .btn-outline-primary:focus, 
+.custom_P .btn-outline-primary:active {
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+    background-color: #cd6b3c !important;
+    border-color: #cd6b3c !important;
+}
+.custom_P .btn-outline-primary {
+    color: #e8895b;
+    border-color: #e8895b;
+}
+.custom_P .services_P .card{
+    border: none;
+    box-shadow: 1px 1px 8px -2px #c9c9c9;
+}
+.custom_P .services_P .card p{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.custom_P .services_P .card i {
+    font-size: 35px;
+    background: #e8895b;
+    padding: 18px;
+    border-radius: 50px;
+    color: #fff;
+}
+.section_spacing{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.bg-gradient-grey {
+    background: linear-gradient(180deg, #b3b0b0, #ebebeb);
+}
+.primary-text{
+    color: #e8895b !important;
+}
+.bg-cs_primary{
+    background-color: #e8895b;
+}
+.solutions_P ul{
+    padding: 0;
+    list-style: none;
+}
+.solutions_P ul li {
+    margin: 12px;
+}
+.Clients_P .col-md img {
+    height: 50px;
+    max-width: 100%;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    cursor: pointer;
+}
+.Clients_P .col-md img:hover{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+}
+footer .logo{
+    max-width: 100px;
+}
+footer iframe{
+    max-width: 100% !important;
+}
+
+/* media querries */
+@media only screen and (max-width: 767px) {
+    .section_spacing{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+}
